@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clase 12 - Tareas</title>
+</head>
+<body>
+    <header>
+        <h1>Clase 12. Tarea 12.1</h1>
+        <p><a href="index.html">Volver atras</a></p>
+        <hr />
+    </header>
+    <main>
+        <h2>Formulario de registro - Mi web</h2>
+        <form action="" method="get">
+            <p>
+                <label for="name">Nombre:</label>
+                <input type="text" name="nombre" id="name" maxlength="50">
+            </p>
+            <p>
+                <label for="lastname">Apellidos:</label>
+                <input type="text" name="apellidos" id="lastname" maxlength="50">
+            </p>
+             <p>
+                Sexo: <br />
+                <input type="radio" name="sexo" value="h" id="man"> 
+                <label for="man">Hombre:</label><br />
+                <input type="radio" name="sexo" value="m" id="woman"> 
+                <label for="woman">Mujer:</label><br />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </p>
+            
+            <p>
+                <label for="poblacion">Población</label>
+                <select name="poblacion" id="poblacion">
+                    <option value="">-</option>
+                    <option value="A">Alicante</option>
+                    <option value="M">Madrid</option>
+                    <option value="S">Sevilla</option>
+                    <option value="V">Valencia</option>
+                </select>
+            </p>
+            <p>
+                <label for="descripcion">Descripción:</label><br />
+                <textarea name="descripcion" id="descripcion" cols="30" rows="5" placeholder="Escribe el contenido de tu consulta"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="news" id="news" CHECKED>
+                <label for="news">Deseo recibir información sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input type="checkbox" name="privacy" id="privacy" required>
+                <label for="privacy">He leído y acepto la política de privacidad</label>
+            </p>
+
+            <p>
+                <button>Enviar</button>
+            </p>
+        </form>
+
+
+
+        
+    </main>
+    <hr>
+    <footer>
+        Rucobo's 2025 - Todos los derechos reservados
+    </footer>
+    
+</body>
+
+</html>
